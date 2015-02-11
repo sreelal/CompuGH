@@ -125,14 +125,11 @@
         }
         break;
         case 3: {
-            /*UINavigationController *webViewVCNav = [self.storyboard instantiateViewControllerWithIdentifier:@"WebViewNavigation"];
-            DGHWebViewController *webView = [[webViewVCNav viewControllers] firstObject];
+            UINavigationController *facebookVCNav = [self.storyboard instantiateViewControllerWithIdentifier:@"facebookNavigationController"];
             
-            if (indexPath.row == 0) webView.viewTitle = VIEW_TITLE_WEEKLY;
-            else if (indexPath.row == 1) webView.viewTitle = VIEW_TITLE_MONTHLY;
             
-            [self.sideMenuViewController setContentViewController:webViewVCNav];
-            [self.sideMenuViewController hideMenuViewController];*/
+            [self.sideMenuViewController setContentViewController:facebookVCNav];
+            [self.sideMenuViewController hideMenuViewController];
         }
             break;
         case 4: {

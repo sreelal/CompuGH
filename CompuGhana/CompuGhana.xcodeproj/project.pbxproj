@@ -68,6 +68,9 @@
 		68847FA51A34A23F00942FA5 /* DGHMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68847FA41A34A23F00942FA5 /* DGHMenuViewController.m */; };
 		68847FA81A34A4C500942FA5 /* DGHContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68847FA71A34A4C500942FA5 /* DGHContentViewController.m */; };
 		68847FAB1A34B13500942FA5 /* DGHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68847FAA1A34B13500942FA5 /* DGHHomeViewController.m */; };
+		68D14D9D1A8BBC8500434556 /* CGHFaceBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D14D9C1A8BBC8500434556 /* CGHFaceBookViewController.m */; };
+		68D14D9F1A8BC0D000434556 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68D14D9E1A8BC0D000434556 /* Social.framework */; };
+		68D14DA21A8BC21000434556 /* SocialFrameworkHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D14DA11A8BC21000434556 /* SocialFrameworkHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -190,6 +193,11 @@
 		68847FA71A34A4C500942FA5 /* DGHContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGHContentViewController.m; sourceTree = "<group>"; };
 		68847FA91A34B13500942FA5 /* DGHHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGHHomeViewController.h; sourceTree = "<group>"; };
 		68847FAA1A34B13500942FA5 /* DGHHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGHHomeViewController.m; sourceTree = "<group>"; };
+		68D14D9B1A8BBC8500434556 /* CGHFaceBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGHFaceBookViewController.h; sourceTree = "<group>"; };
+		68D14D9C1A8BBC8500434556 /* CGHFaceBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGHFaceBookViewController.m; sourceTree = "<group>"; };
+		68D14D9E1A8BC0D000434556 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		68D14DA01A8BC21000434556 /* SocialFrameworkHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocialFrameworkHandler.h; path = ../../../../../../../../Users/sreelalh/Downloads/SocialFrameworkHandler.h; sourceTree = "<group>"; };
+		68D14DA11A8BC21000434556 /* SocialFrameworkHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocialFrameworkHandler.m; path = ../../../../../../../../Users/sreelalh/Downloads/SocialFrameworkHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +205,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68D14D9F1A8BC0D000434556 /* Social.framework in Frameworks */,
 				2E6B42691A7CEBB8004BCDD8 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +355,8 @@
 				2ECA4FFD1A77DD12003FB9EE /* DGhNotificationViewController.m */,
 				2ECA50051A77EF01003FB9EE /* DGHWebViewController.h */,
 				2ECA50061A77EF01003FB9EE /* DGHWebViewController.m */,
+				68D14D9B1A8BBC8500434556 /* CGHFaceBookViewController.h */,
+				68D14D9C1A8BBC8500434556 /* CGHFaceBookViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -415,6 +426,7 @@
 		68847F661A349DB200942FA5 = {
 			isa = PBXGroup;
 			children = (
+				68D14D9E1A8BC0D000434556 /* Social.framework */,
 				2E6B42681A7CEBB8004BCDD8 /* QuartzCore.framework */,
 				68847F711A349DB200942FA5 /* DeviceGH */,
 				68847F701A349DB200942FA5 /* Products */,
@@ -459,6 +471,8 @@
 		68847F981A349E6500942FA5 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				68D14DA01A8BC21000434556 /* SocialFrameworkHandler.h */,
+				68D14DA11A8BC21000434556 /* SocialFrameworkHandler.m */,
 				2E4C3A1C1A3F4E8D009D6A08 /* Constants.h */,
 				2E2E3B8C1A409EDA00EB996E /* HelperClass.h */,
 				2E2E3B8D1A409EDA00EB996E /* HelperClass.m */,
@@ -610,6 +624,7 @@
 				68847FAB1A34B13500942FA5 /* DGHHomeViewController.m in Sources */,
 				2E1ADB3F1A6F42D600311790 /* DGHEnquireViewController.m in Sources */,
 				681E7AD91A4579E600B24D4E /* UrlImageView.m in Sources */,
+				68D14D9D1A8BBC8500434556 /* CGHFaceBookViewController.m in Sources */,
 				2E27AEA11A6294A800220482 /* SubMenuCell.m in Sources */,
 				681E7AD81A4579E600B24D4E /* UrlImageButton.m in Sources */,
 				68847FA51A34A23F00942FA5 /* DGHMenuViewController.m in Sources */,
@@ -621,6 +636,7 @@
 				68847F751A349DB200942FA5 /* main.m in Sources */,
 				2ECA50071A77EF01003FB9EE /* DGHWebViewController.m in Sources */,
 				2E6B42671A7CE661004BCDD8 /* MarqueeLabel.m in Sources */,
+				68D14DA21A8BC21000434556 /* SocialFrameworkHandler.m in Sources */,
 				2E4C3A1A1A3F4D40009D6A08 /* RequestHandler.m in Sources */,
 				68847FA11A349E6500942FA5 /* RESideMenu.m in Sources */,
 				2E2835851A74C2AD0090C65D /* DGHProductInfoViewController.m in Sources */,
